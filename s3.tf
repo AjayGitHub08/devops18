@@ -24,10 +24,10 @@ status = "Enabled"
 }
 
 
-#terraform {
-#backend "s3" {
-#region = "eu-north-1"
-#bucket = "ajaybuckets.monobucket"
-#key = "prod/terraform.tfstate"
-#}
-#}
+terraform {
+backend "s3" {
+region = "eu-north-1"
+bucket = "ajaybuckets.monobucket"
+key = "prod/terraform.tfstate"
+}
+}
