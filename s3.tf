@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "ajayBuckets.monobucket"
+  bucket = "ajaybuckets.monobucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
@@ -27,7 +27,7 @@ status = "Enabled"
 #terraform {
 #backend "s3" {
 #region = "eu-north-1"
-#bucket = "ajayBuckets.monobucket"
+#bucket = "ajaybuckets.monobucket"
 #key = "prod/terraform.tfstate"
 #}
 #}
